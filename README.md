@@ -10,6 +10,14 @@ source venv/bin/activate
 pip install -r requirements.txt 
 ```
 
+## SRC
+### FCN.py
+Contains the implementation of fully connected layer
+### loss.py
+Mean squared error implementation
+### activation.py
+ReLu implementation
+
 ## Examples
 
 ### Example 1
