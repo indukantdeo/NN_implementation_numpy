@@ -10,4 +10,20 @@ source venv/bin/activate
 pip install -r requirements.txt 
 ```
 
+## Examples
+
+### Example 1
+```
+ linear regression y = Wx + b
+ N, Din, Dout = 4, 3, 2
+ Training loop (plain SGD)
+```
+
+### Example 2
+```
+ 3-layer fully-connected network: 10 → 32 → 16 → 1
+ 64 samples, 10-D input, 1-D output
+ Training loop (plain SGD)
+```
+
 
